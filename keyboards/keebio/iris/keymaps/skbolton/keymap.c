@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      WINDOW,  ARROWS,   KC_S,    LALT_T(KC_D),LCTL_T(KC_F),    KC_G,                  KC_H,   RCTL_T(KC_J), RALT_T(KC_K),    KC_L,    KC_SCLN, KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     TD(TD_CAPS_ATTACK), LT(_COLORS,KC_Z),    KC_X,    KC_C,    KC_V,    KC_B,  LOWER,  KC_DEL,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+     TD(TD_CAPS_ATTACK), LT(_COLORS,KC_Z),    KC_X,    KC_C,    KC_V,    KC_B,  LOWER,  RAISE,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     KC_ESC,  NUM_TAB,  CODE,                 KC_ENTER, RGUI_T(KC_SPC),   RCTL(KC_B)
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
