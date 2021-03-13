@@ -1,7 +1,7 @@
 // custom keycodes
 #define NUM_TAB LT(_NUMPAD, KC_TAB)
 #define CODE LT(_CODE, KC_BSPC)
-#define WINDOW OSL(_WINDOW_PAD)
+#define WINDOW LM(_NUMPAD, MOD_LGUI)
 #define ARROWS LT(_ARROWS, KC_A)
 #define CTRLF LCTL_T(KC_F)
 #define CTRLJ RCTL_T(KC_J)
