@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_CODE] = LAYOUT_moonlander(
         _______, _______, _______, _______, _______, _______, _______,           _______, _______, _______, _______, _______, EEP_RST, RESET,
         _______, _______, _______, _______, _______, _______, _______,           _______, KC_LT,   KC_ASTR, KC_LPRN, KC_RPRN, KC_HASH, KC_PLUS,
-        _______, _______, _______, _______, KC_AMPR, KC_EXLM, _______,           _______, KC_GT,   KC_EQL,  KC_LCBR, KC_RCBR, KC_AT,   KC_MINS,
+        _______, _______, _______, KC_AMPR, KC_EXLM, _______, _______,           _______, KC_GT,   KC_EQL,  KC_LCBR, KC_RCBR, KC_AT,   KC_MINS,
         _______, _______, _______, _______, _______, _______,                             KC_TILD, KC_GRV,  KC_LBRC, KC_RBRC, KC_PIPE, KC_PERC,
         _______, _______, _______, _______, _______,          _______,           _______,          _______, _______, _______, _______, _______,
                                             _______, _______, _______,           KC_CIRC, KC_DLR, KC_UNDS
